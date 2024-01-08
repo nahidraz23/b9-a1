@@ -21,7 +21,6 @@
   width: 140px;
   height: 48px;
   border-radius: 8px;
-  background: #F00;
   border: none;
   color: #fff;
   text-align: center;
@@ -178,6 +177,10 @@
   height: 370px;
 }
 
+.btn-party-join-now {
+  background: none;
+}
+
 /* Event info section */
 
 .event-info {
@@ -204,9 +207,10 @@
   color: #F00;
 }
 
-#btn-event-info {
+.btn-event-info {
   padding: 16px 32px;
   margin: 0 auto;
+  background: #F00;
 }
 
 /* Best gift section */
@@ -322,4 +326,79 @@
 
 .btn-newsletter-subscribe {
   border-radius: 0px 30px 30px 0px;
+  background: #F00;
+}
+
+/* footer section */
+
+.footer {
+  width: 100%;
+  /* width: 1600px; */
+  height: 610px;
+  background: #070211;
+  margin: 0 auto;
+}
+
+.footer hr {
+  max-width: 1600px;
+  margin: 50px auto;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.footer-contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.footer-address {
+  margin-top: 120px;
+  margin-left: 140px;
+}
+
+.footer-address address {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.footer-contact {
+  margin-top: 120px;
+  margin-right: 295px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-contact p {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.footer-contact img {
+  margin-right: 16px;
+}
+
+.footer-social-icons {
+  margin: 48px auto;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.footer-copyright {
+  margin: 50px 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-copyright p{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
 }

@@ -7,13 +7,13 @@
   font-family: "Merriweather", serif;
 }
 
+/* header related design */
+
 .container {
   width: 80%;
   max-width: 1320px;
   margin: 50px auto;
 }
-
-/* header related design */
 
 .banner {
   max-width: 1320px;

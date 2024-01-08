@@ -9,17 +9,28 @@
 
 /* shared styles */
 
-.banner{
+.banner {
   max-width: 1320px;
   height: 600px;
   border-radius: 16px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .button {
-
+  width: 140px;
+  height: 48px;
+  border-radius: 8px;
+  background: #F00;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 /* header related design */
@@ -32,16 +43,14 @@
 
 .new-year {
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url("../images/Banner-Image.png");
-}
-
-.new-year-info {
+    url('/images/Banner-Image.png');
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.banner-title h3{
+.banner-title h3 {
   color: #fff;
   text-align: center;
   font-family: Merriweather;
@@ -50,9 +59,9 @@
   margin-bottom: 16px;
 }
 
-.banner-greetings h1{
+.banner-greetings h1 {
   color: #fff;
-  max-width: 500px;  
+  max-width: 500px;
   text-align: center;
   font-family: Merriweather;
   font-size: 58px;
@@ -109,17 +118,19 @@
 
 .midnight-party {
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url("../images/Vectorrr.png");
+    url('/images/Vectorrr.png');
+  display: flex;
+  justify-content: center;
   margin-top: 120px;
 }
 
-.midnight-party .party-info .party-title {
+.party-info .party-title {
   max-width: 510px;
   margin-left: 126px;
   margin-bottom: 24px;
 }
 
-.midnight-party .party-info .party-title h1 {
+.party-info .party-title h1 {
   color: #fff;
   font-family: Merriweather;
   font-size: 51px;
@@ -127,28 +138,58 @@
   letter-spacing: 5.5px;
 }
 
-.midnight-party .party-info .party-description {
+.party-info .party-description {
   max-width: 558px;
   margin-left: 126px;
   margin-bottom: 48px;
 }
 
-.midnight-party .party-info .party-description h3 {
+.party-info .party-description h3 {
   color: rgba(255, 255, 255, 0.8);
   font-family: Inter;
   font-size: 15px;
   font-weight: 400;
 }
 
-.midnight-party #midnight-party-join-now {
+#midnight-party-join-now {
   margin-left: 160px;
 }
 
-.midnight-party #midnight-party-join-now h3 {
+#midnight-party-join-now h3 {
   color: #fff;
   text-align: left;
   font-family: Inter;
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+/* Event info section */
+
+.event-info {
+  margin-top: 120px;
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+.event-details {
+  margin: 100px auto;
+}
+
+.event-details p {
+  color: #070211;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 56px;
+}
+
+.event-details-subject {
+  font-family: Inter;
+  color: #F00;
+}
+
+#btn-event-info {
+  /* padding: 16px 32px; */
+  margin: 0 auto;
 }

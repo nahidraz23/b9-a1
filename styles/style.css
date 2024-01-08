@@ -2,9 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   font-family: "Merriweather", serif;
+}
+
+/* shared styles */
+
+.button {
 }
 
 /* header related design */
@@ -100,16 +105,47 @@
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("/images/Vectorrr.png");
   margin-top: 120px;
-}
-
-.midnight-party .party-info {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.midnight-party .party-info .party-title h3 {
+.midnight-party .party-info .party-title {
+  max-width: 510px;
+  margin-left: 126px;
+  margin-bottom: 24px;
+}
+
+.midnight-party .party-info .party-title h1 {
   color: #fff;
   font-family: Merriweather;
   font-size: 51px;
   font-weight: 900;
   letter-spacing: 5.5px;
+}
+
+.midnight-party .party-info .party-description {
+  max-width: 558px;
+  margin-left: 126px;
+  margin-bottom: 48px;
+}
+
+.midnight-party .party-info .party-description h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.midnight-party #midnight-party-join-now {
+  margin-left: 160px;
+}
+
+.midnight-party #midnight-party-join-now h3 {
+  color: #fff;
+  text-align: left;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
 }

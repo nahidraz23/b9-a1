@@ -41,7 +41,7 @@
 
 .new-year {
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url('/images/Banner-Image.png');
+    url("../images/BannerImage.png");
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -116,7 +116,7 @@
 
 .midnight-party {
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url('/images/Vectorrr.png');
+    url('../images/Vectorrr.png');
   margin-top: 120px;
   display: flex;
   flex-direction: row;
@@ -175,6 +175,7 @@
 .party-2024 img {
   width: 260px;
   height: 370px;
+  background: none;
 }
 
 .btn-party-join-now {

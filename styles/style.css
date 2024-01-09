@@ -334,6 +334,10 @@
   line-height: 32px;
 }
 
+.gift-box {
+  margin-left: 100px;
+}
+
 .user-image {
   position: relative;
   margin-top: 64px;
@@ -361,10 +365,6 @@
   margin-top: 40px;
   position: relative;
   z-index: -1;
-}
-
-.gift-box {
-  margin-left: 100px;
 }
 
 /* Best gift section */
@@ -417,7 +417,7 @@
 }
 
 .products img:hover {
-  filter: opacity(0.5) drop-shadow(0 0 0 gray);
+  transform: scale(1.3);
   cursor: pointer;
 }
 

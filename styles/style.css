@@ -416,6 +416,11 @@
   gap: 24px;
 }
 
+.products img:hover {
+  filter: opacity(0.5) drop-shadow(0 0 0 gray);
+  cursor: pointer;
+}
+
 /* Newletter section */
 
 .newsletter {
@@ -561,5 +566,5 @@
 }
 
 .footer-social-icons img:hover {
-  filter: opacity(0.5) drop-shadow(0 0 0 blue);
+  filter: opacity(0.5) drop-shadow(0 0 0 gray);
 }

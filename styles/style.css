@@ -491,6 +491,11 @@
   color: black;
 }
 
+.subscribe-newsletter-field input:focus {
+  outline: none;
+  text-indent: 30px;
+}
+
 /* footer section */
 
 .footer {
